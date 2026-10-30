@@ -1,0 +1,11 @@
+---- Final register check ----
+PASS  r2 = 0xfffefea0
+PASS  r5 = 0x00000008
+PASS  r6 = 0xfffefeb2
+PASS  r7 = 0x0001457e
+---- Hazard events ----
+Load-use stall cycles       : 1 (expected 1)
+EX/MEM -> EX forwards (A)   : 1
+MEM/WB -> EX forwards (A)   : 2
+RESULT: ALL CHECKS PASSED
+tb/Proctb_check.v:41: $finish called at 62 (1s)

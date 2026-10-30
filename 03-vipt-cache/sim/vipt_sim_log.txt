@@ -1,0 +1,10 @@
+VCD info: dumpfile vipt_cache.vcd opened for output.
+== Test 1: cold miss, refill, replay hit ==
+== Test 2: 4 different physical tags in ONE set (same virtual index) ==
+== Test 3: LRU eviction (order A,B,C,D -> touch A -> LRU is B) ==
+== Test 4: different set (index) with same tag is independent ==
+== Test 5: back-to-back hits, 1 request per cycle ==
+
+Summary: 29 hits, 13 misses, 35 checks, 0 errors
+RESULT: ALL TESTS PASSED
+tb/tb_vipt_cache.v:175: $finish called at 2860000 (1ps)

@@ -1,0 +1,12 @@
+*.vcd
+*.vvp
+*.out
+sim/out/
+work/
+transcript
+*.wlf
+xsim.dir/
+*.jou
+.Xil/
+__pycache__/
+build/
